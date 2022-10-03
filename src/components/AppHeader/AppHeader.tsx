@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./AppHeader.module.css";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 function AppHeader() {
     return (
@@ -8,16 +9,17 @@ function AppHeader() {
             <nav className={styles.nav}>
                 <ul className={styles.navList}>
                     <li className={styles.navItem}>
-                        <a href="./">Главная</a></li>
+                        <Link to="/">Главная</Link>
+                    </li>
                 </ul>
                 <ul className={styles.navList}>
                     <li className={styles.navItem}>
-                        <a href="./register">Регистрация</a>
+                    <Link to="/register">Регистрация</Link>
                     </li>
                     <li className={`${styles.navItem} ${styles.loginButton}`}>
-                        <a href="./login">
+                        <Link to="/login">
                             <Button size="small">Войти</Button>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

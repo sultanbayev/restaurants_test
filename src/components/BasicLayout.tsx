@@ -1,18 +1,12 @@
 import React from "react";
 import AppHeader from "./AppHeader";
-import Main from "./Main";
+import { Outlet } from "react-router-dom";
 
-type BasicLayoutProps = {
-    children?: React.ReactNode;
-}
-
-function BasicLayout({ children }: BasicLayoutProps) {
+function BasicLayout() {
     return (
         <>
             <AppHeader />
-            <Main>
-                { children }
-            </Main>
+            <Outlet />
         </>
         
     );
