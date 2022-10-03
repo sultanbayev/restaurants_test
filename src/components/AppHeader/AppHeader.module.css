@@ -1,0 +1,48 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 74px;
+    background-color: #ffffff;
+    box-shadow: -20px 20px 50px rgba(28, 28, 30, 0.05);
+    border-radius: 0px 0px 20px 20px;
+    z-index: 5;
+}
+
+.nav {
+    max-width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navItem {
+    color: #9494A0;
+    font-family: 'Futura PT Medium', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 32px;
+}
+
+.navItem:last-child {
+    margin-right: 0;
+}
+
+.navItem a {
+    color: #9494A0;
+    text-decoration: none;
+}
+
+.loginButton {
+    width: 90px;
+}

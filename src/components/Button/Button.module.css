@@ -1,0 +1,27 @@
+.buttonSmall {
+    width: 100%;
+    height: 36px;
+    color: #ffffff;
+    background: #3782DA;
+    font-family: 'Futura PT Medium', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonBig {
+    width: 100%;
+    height: 61px;
+    color: #ffffff;
+    background: #3782DA;
+    font-family: 'Futura PT Medium', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
