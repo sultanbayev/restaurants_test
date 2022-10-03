@@ -1,6 +1,7 @@
 .main {
     background: #ffffff;
     padding-top: 61px;
+    padding-bottom: 150px;
     overflow: hidden;
 }
 
@@ -20,8 +21,15 @@
 
 .subheading {
     margin-top: 7px;
+    margin-bottom: 28px;
     font-family: 'Futura PT Book', Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 26px;
     color: #424F5E;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px 13px;
 }

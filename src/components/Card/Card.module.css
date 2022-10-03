@@ -1,0 +1,57 @@
+.card {
+    width: 300px;
+    background: #F9FAFB;
+    border-radius: 25px;
+    overflow: hidden;
+    filter: drop-shadow(-30px 30px 60px rgba(28, 28, 30, 0.1));
+}
+
+.card:hover {
+    z-index: 4;
+}
+
+.body {
+    padding: 20px 30px 30px;
+    font-family: 'Futura PT Book', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #424F5E;
+}
+
+.heading {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Futura PT Demi', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #424F5E;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.location i {
+    margin-right: 8px;
+}
+
+.description {
+    height: 20px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    margin-bottom: 12px;
+}
+
+.price {
+    margin-bottom: 41px;
+    font-family: 'Futura PT Demi', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #424F5E;
+}
+
+.buttonContainer {
+    width: 166px;
+}
