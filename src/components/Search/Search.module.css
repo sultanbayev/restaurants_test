@@ -1,0 +1,39 @@
+.search {
+    background: #3782DA;
+    padding-top: 74px;
+    padding-bottom: 82px;
+    overflow: hidden;
+}
+
+.content {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.heading {
+    width: 775px;
+    margin-top: 48px;
+    margin-bottom: 29px;
+    color: #FFFFFF;
+    font-family: 'Futura PT Demi', Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 44px;
+}
+
+.formContainer {
+    padding: 35px;
+    background: #F9FAFB;
+    box-shadow: -30px 20px 70px rgba(28, 28, 30, 0.1);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonContainer {
+    width: 200px;
+}
+
+.inputContainer {
+    width: 410px;
+}
