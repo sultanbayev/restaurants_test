@@ -1,27 +1,26 @@
-.buttonSmall {
+.button {
     width: 100%;
-    height: 36px;
     color: #ffffff;
     background: #3782DA;
     font-family: 'Futura PT Medium', Helvetica, Arial, sans-serif;
-    font-size: 18px;
     line-height: 20px;
     text-align: center;
     border: none;
-    border-radius: 10px;
     cursor: pointer;
 }
 
+.button:hover, .button:active {
+    background: #3075c5;
+}
+
+.buttonSmall {
+    height: 36px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
 .buttonBig {
-    width: 100%;
     height: 61px;
-    color: #ffffff;
-    background: #3782DA;
-    font-family: 'Futura PT Medium', Helvetica, Arial, sans-serif;
     font-size: 20px;
-    line-height: 20px;
-    text-align: center;
-    border: none;
     border-radius: 15px;
-    cursor: pointer;
 }

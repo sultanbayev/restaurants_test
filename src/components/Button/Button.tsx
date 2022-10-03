@@ -6,9 +6,12 @@ type ButtonProps = {
     size?: 'small' | 'big';
 }
 
-function Button({ children, size, ...props}: ButtonProps) {
+function Button({ children, size, ...props}: ButtonProps & React.HTMLAttributes<HTMLButtonElement>) {
+
+    const sizeStyle = size === 'small' ? styles.buttonSmall : styles.buttonBig;
+
     return (
-        <button className={ size === 'small' ? styles.buttonSmall : styles.buttonBig } { ...props }>
+        <button className={`${styles.button} ${sizeStyle}`} { ...props }>
             { children }
         </button>
     );
